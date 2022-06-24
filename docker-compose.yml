@@ -1,0 +1,7 @@
+version: '3'
+services:
+  server:
+    image: mailbyms/node-cnpm:16.15.1
+    volumes:
+      - /home/mike/workspace:/src
+    tty: true
